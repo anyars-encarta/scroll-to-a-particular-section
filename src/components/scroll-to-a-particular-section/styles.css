@@ -1,0 +1,50 @@
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 99;
+    position: fixed;
+    width: 100vw;
+}
+
+.scroll-buttons button {
+    margin: 10px;
+    background-color: aqua;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+}
+
+section {
+    padding-top: 200px;
+    margin-bottom: 20px;
+}
+
+.section-1 {
+    background-color: red;
+    height: 100vh;
+}
+
+.section-2 {
+    background-color: grey;
+    height: 100vh;
+}
+
+.section-3 {
+    background-color: blue;
+    height: 100vh;
+}
+
+.section-4 {
+    background-color: green;
+    height: 100vh;
+}
+
+.section-5 {
+    background-color: goldenrod;
+    height: 100vh;
+}
