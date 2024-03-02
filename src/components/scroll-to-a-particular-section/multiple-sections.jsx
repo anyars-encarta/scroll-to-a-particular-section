@@ -9,23 +9,23 @@ const ScrollToAParticularSectionMultiple = () => {
     const section5 = useRef(null);
 
     const handleGoToSection1 = () => {
-        section1.current.scrollIntoView({ top: 250, behavior: 'smooth' });
+        section1.current.scrollIntoView({ behavior: 'smooth' });
     };
 
     const handleGoToSection2 = () => {
-        section2.current.scrollIntoView({ top: 250, behavior: 'smooth' });
+        section2.current.scrollIntoView({ behavior: 'smooth' });
     };
 
     const handleGoToSection3 = () => {
-        section3.current.scrollIntoView({ top: 250, behavior: 'smooth' });
+        section3.current.scrollIntoView({ behavior: 'smooth' });
     };
 
     const handleGoToSection4 = () => {
-        section4.current.scrollIntoView({ top: 250, behavior: 'smooth' });
+        section4.current.scrollIntoView({ behavior: 'smooth' });
     };
 
     const handleGoToSection5 = () => {
-        section5.current.scrollIntoView({ top: 250, behavior: 'smooth' });
+        section5.current.scrollIntoView({ behavior: 'smooth' });
     };
 
     return (
