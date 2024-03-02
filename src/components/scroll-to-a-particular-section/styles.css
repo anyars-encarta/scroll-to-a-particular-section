@@ -11,6 +11,10 @@
     width: 100vw;
 }
 
+.scroll-buttons button:hover {
+    background-color: yellowgreen;
+}
+
 .scroll-buttons button {
     margin: 10px;
     background-color: aqua;
